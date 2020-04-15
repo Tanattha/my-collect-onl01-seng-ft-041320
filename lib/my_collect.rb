@@ -1,6 +1,6 @@
 
   def my_collect(array)
-  if block_given?
+  
   i = 0
   collect = []
   while i < array.length
@@ -8,5 +8,5 @@
     i+=1
   end
   collect
-end
+
 end
